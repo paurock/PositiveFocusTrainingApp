@@ -1,2 +1,0 @@
-# PositiveFocusTrainingApp
-Created with CodeSandbox
