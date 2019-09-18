@@ -1,4 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
+  display: flex;
   font-family: sans-serif;
   text-align: center;
+  justify-content: center;
+}
+.smile,
+.sadSmile {
+  width: 50px;
+  height: 50px;
+}
+.info-block {
+  border: 2px solid rgb(0, 0, 0, 0.3);
+  width: 100%;
+  margin: 2rem auto 0 auto;
+  padding: 0.5rem;
+  text-align: left;
+}
+.info-block p {
+  line-height: 1.5rem;
+}
+.info-block span {
+  color: black;
+  font-weight: bold;
+}
+.hit-title {
+  width: 100%;
+  height: 2.5rem;
+  margin: 1rem;
+  font-size: 2rem;
+  color: green;
+}
+.hit-title.missed {
+  color: red;
+}
+.main-block {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  /* border: 5px dotted purple; */
+  width: 100%;
+  height: 100vh;
+  max-width: 320px;
+}
+
+.levelUp-btn,
+.levelDwn-btn {
+  margin: 2rem auto;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+}
+.images ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+  align-items: flex-start;
+}
+ul li.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  list-style: none;
+  width: 70px;
+  height: 50px;
 }
